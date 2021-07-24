@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+h2{
+    padding: 1rem;
+    text-align: center;
+    background-color: aqua;
+}
+
+.input-area {
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.btn{
+    border: none;
+    padding: 1rem;
+    margin: 1rem 10%;
+    background-color: aqua;
+}
+
+.output-header{
+    margin: 1rem 10%;
+}
+
+.output-area {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.container{
+    margin: auto auto;
+}
+
+footer{
+    padding: 1rem;
+    background-color: aqua;
+    
+}
+
+footer h4{
+    text-align: center;
+}
+
+footer p{
+    width: 80%;
+    margin: auto auto;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        font-size: 1.2rem;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    * {
+        font-size: 1.2rem;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+  }
