@@ -25,6 +25,11 @@ h2{
     background-color: aqua;
 }
 
+select{
+    padding: 1rem;
+    margin: 1rem 10%;
+}
+
 .output-header{
     margin: 1rem 10%;
 }
